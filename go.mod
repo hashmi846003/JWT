@@ -1,12 +1,12 @@
-module main.go
+module github.com/hashmi846003/OAUTH-2.0-IMPLEMENTATION
 
 go 1.24.4
 
 require (
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/Siddheshk02/jwt-auth-api v0.0.0-20221229151801-959b970874f3
 	github.com/gofiber/fiber/v2 v2.52.8
-	github.com/hashmi846003/OAUTH-2.0-IMPLEMENTATION v0.0.0-20250628131859-1eaff2030e70
-	golang.org/x/crypto v0.31.0
+	github.com/golang-jwt/jwt v3.2.2+incompatible
+	golang.org/x/crypto v0.39.0
 	gorm.io/driver/postgres v1.6.0
 	gorm.io/gorm v1.30.0
 )
@@ -28,7 +28,7 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.51.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
-	golang.org/x/sync v0.10.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/sync v0.15.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/text v0.26.0 // indirect
 )
