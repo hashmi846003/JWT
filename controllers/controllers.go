@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Siddheshk02/jwt-auth-api/database"
-	"github.com/Siddheshk02/jwt-auth-api/models"
+	"github.com/hashmi846003/jwt/database"
+	"github.com/hashmi846003/jwt/models"
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt"
 	"golang.org/x/crypto/bcrypt"
