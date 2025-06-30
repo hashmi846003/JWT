@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/Siddheshk02/jwt-auth-api/controllers"
+	"github.com/hashmi846003/jwt/controllers"
 	"github.com/gofiber/fiber/v2"
 )
 
