@@ -1,4 +1,4 @@
-module github.com/hashmi846003/OAUTH-2.0-IMPLEMENTATION
+module github.com/hashmi846003/jwt
 
 go 1.24.4
 
