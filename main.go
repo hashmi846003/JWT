@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/hashmi846003/OAUTH-2.0-IMPLEMENTATION/routes"
-    "github.com/hashmi846003/OAUTH-2.0-IMPLEMENTATION/database"
+	"github.com/hashmi846003/jwt/routes"
+    "github.com/hashmi846003/jwt/database"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 )
 
