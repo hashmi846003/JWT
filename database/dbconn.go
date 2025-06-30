@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Siddheshk02/jwt-auth-api/models"
+	"github.com/hashmi846003/jwt/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
@@ -13,8 +13,8 @@ const (
 	host     = "localhost"
 	port     = 5432
 	user     = "postgres"
-	password = "<passwword>" //Enter your password for the DB
-	dbname   = "jwt-auth-api"
+	password = "secret" //Enter your password for the DB
+	dbname   = "jwt"
 )
 
 var dsn string = fmt.Sprintf("host=%s port=%d user=%s "+
